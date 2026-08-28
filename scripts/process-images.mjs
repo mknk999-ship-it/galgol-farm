@@ -10,8 +10,8 @@ fs.mkdirSync(outDir, { recursive: true });
 
 const jobs = [
   { src: "1.jpg", out: "hero-farm.webp", maxWidth: 1920 },
-  { src: "2.jpg", out: "pepper-plant.webp", maxWidth: 1600 },
-  { src: "10.jpg", out: "harvest.webp", maxWidth: 1600 },
+  { src: "43.jpg", out: "pepper-plant.webp", maxWidth: 1600 },
+  { src: "48.jpg", out: "harvest.webp", maxWidth: 1600 },
   { src: "8.jpg", out: "washing.webp", maxWidth: 1200 },
   { src: "3.jpg", out: "drying-house.webp", maxWidth: 1600 },
   { src: "9.jpg", out: "sorting.webp", maxWidth: 1200 },
@@ -32,6 +32,16 @@ const jobs = [
     maxWidth: 480,
     crop: { square: true, focusX: 0.53, focusY: 0.36 },
   },
+  // --- 아래부터 신규 추가 (재배 여정 + WHY 영양 배너) ---
+  { src: "24.jpg", out: "journey-tilling.webp", maxWidth: 1600 },
+  { src: "29.jpg", out: "journey-mulching.webp", maxWidth: 1600 },
+  { src: "31.jpg", out: "journey-planting.webp", maxWidth: 1600 },
+  { src: "38.jpg", out: "journey-covering.webp", maxWidth: 1600 },
+  { src: "40.jpg", out: "journey-growing.webp", maxWidth: 1600 },
+  { src: "45.jpg", out: "journey-fruiting.webp", maxWidth: 1600 },
+  { src: "53.jpg", out: "yeongyang-pride.webp", maxWidth: 1920 },
+  // 선택: 상품 카드 사진을 바꾸고 싶을 때만 사용
+  { src: "49.jpg", out: "dried-pepper-bowl.webp", maxWidth: 1200 },
 ];
 
 for (const job of jobs) {
