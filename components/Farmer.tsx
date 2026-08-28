@@ -15,7 +15,7 @@ export default function Farmer() {
           <div className="relative h-[200px] overflow-hidden rounded-t-2xl bg-[#EFEAE1] md:h-[280px]">
             <Image
               src="/images/farmer-cover.webp"
-              alt="갈골농원에서 고추를 건조하는 모습"
+              alt="갈골농원 대표"
               fill
               sizes="(min-width: 768px) 1080px, 100vw"
               className="object-cover object-[center_42%]"

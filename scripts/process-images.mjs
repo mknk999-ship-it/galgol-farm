@@ -17,21 +17,6 @@ const jobs = [
   { src: "9.jpg", out: "sorting.webp", maxWidth: 1200 },
   { src: "5.jpg", out: "dried-pepper.webp", maxWidth: 1200 },
   { src: "6.jpg", out: "facility.webp", maxWidth: 1600 },
-  {
-    // 대표가 엄지 든 가로 사진 → 상하만 잘라 와이드 배너 비율(3:1)로. 인물이 화면 오른쪽
-    // 3분의 2 지점, 세로로는 위쪽 1/3 부근에 있어 그 위치를 중심으로 세로만 자른다.
-    src: "13.jpg",
-    out: "farmer-cover.webp",
-    maxWidth: 1440,
-    crop: { ratio: 3, focusY: 0.37 },
-  },
-  {
-    // 대표 얼굴 사진 → 얼굴 중심 정사각으로 미리 크롭 (프로필 원형용)
-    src: "14.jpg",
-    out: "farmer-face.webp",
-    maxWidth: 480,
-    crop: { square: true, focusX: 0.53, focusY: 0.36 },
-  },
   // --- 아래부터 신규 추가 (재배 여정 + WHY 영양 배너) ---
   { src: "24.jpg", out: "journey-tilling.webp", maxWidth: 1600 },
   { src: "29.jpg", out: "journey-mulching.webp", maxWidth: 1600 },
@@ -40,8 +25,9 @@ const jobs = [
   { src: "40.jpg", out: "journey-growing.webp", maxWidth: 1600 },
   { src: "45.jpg", out: "journey-fruiting.webp", maxWidth: 1600 },
   { src: "53.jpg", out: "yeongyang-pride.webp", maxWidth: 1920 },
-  // 선택: 상품 카드 사진을 바꾸고 싶을 때만 사용
-  { src: "49.jpg", out: "dried-pepper-bowl.webp", maxWidth: 1200 },
+  // farmer-cover.webp, farmer-face.webp, dried-pepper-product.webp,
+  // gochugaru.webp 는 photos/ 번호 사진이 아니라 채팅으로 받은 사진을
+  // 직접 변환해 public/images/ 에 넣은 것이라 이 목록에 없다.
 ];
 
 for (const job of jobs) {
