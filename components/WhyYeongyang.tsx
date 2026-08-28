@@ -10,8 +10,8 @@ export default function WhyYeongyang() {
       <Wrap narrow>
         <Reveal>
           <SectionHeading
-            eyebrow="WHY 영양"
-            title="왜, 영양고추인가."
+            eyebrow="영양고추의 우수성"
+            title="전 세계인의 입맛을 사로잡은 영양 고추"
             desc="영양군은 이런 이력을 가진 고추 산지로 알려져 있습니다. 갈골농원은 그 영양군 청기면에서 고추를 직접 재배·세척·건조합니다."
           />
         </Reveal>
