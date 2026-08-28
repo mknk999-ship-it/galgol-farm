@@ -6,7 +6,7 @@ import CountUpNumber from "./CountUpNumber";
 const stats = [
   { key: "국산 비율", to: 100, unit: "%", note: "경북 영양산" },
   { key: "관리 공정", to: 7, unit: "단계", note: "재배부터 출고까지" },
-  { key: "취급 품목", to: 3, unit: "가지", note: "고추 · 고춧가루 · 사과" },
+  { key: "취급 품목", to: 2, unit: "가지", note: "고추 · 고춧가루" },
   { key: "햇고춧가루", to: 600, unit: "g", note: "한 봉 18,000원" },
 ];
 
