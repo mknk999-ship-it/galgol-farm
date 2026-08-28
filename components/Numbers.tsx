@@ -12,7 +12,7 @@ const stats = [
 
 export default function Numbers() {
   return (
-    <section className="bg-green py-[76px] text-white md:py-[120px]">
+    <section className="bg-green text-white">
       <Wrap>
         <Reveal className="md:max-w-[660px]">
           <SectionHeading

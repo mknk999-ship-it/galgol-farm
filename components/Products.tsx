@@ -7,7 +7,7 @@ import Reveal from "./Reveal";
 
 export default function Products() {
   return (
-    <section id="products" className="bg-soft py-[76px] md:py-[120px]">
+    <section id="products" className="bg-soft">
       <Wrap>
         <Reveal className="md:max-w-[660px]">
           <SectionHeading

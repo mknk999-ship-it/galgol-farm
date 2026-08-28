@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import WhyYeongyang from "@/components/WhyYeongyang";
 import Farmer from "@/components/Farmer";
 import Numbers from "@/components/Numbers";
 import About from "@/components/About";
@@ -18,6 +19,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
+      <WhyYeongyang />
       <Farmer />
       <Numbers />
       <About />

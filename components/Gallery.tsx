@@ -23,7 +23,7 @@ const shots = [
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="bg-soft py-[76px] md:py-[120px]">
+    <section id="gallery" className="bg-soft">
       <Wrap>
         <Reveal className="md:max-w-[660px]">
           <SectionHeading eyebrow="농장" title="영양에서, 이렇게." />

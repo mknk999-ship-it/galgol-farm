@@ -65,6 +65,16 @@
     letter-spacing: -0.042em;
     line-height: 1.32;
   }
+  section {
+    padding-top: 76px;
+    padding-bottom: 76px;
+  }
+  @media (min-width: 768px) {
+    section {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+  }
   :focus-visible {
     outline: 2px solid var(--red);
     outline-offset: 3px;

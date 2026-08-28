@@ -6,7 +6,7 @@ import Reveal from "./Reveal";
 
 export default function Process() {
   return (
-    <section id="process" className="bg-soft py-[76px] md:py-[120px]">
+    <section id="process" className="bg-soft">
       <Wrap>
         <Reveal className="md:max-w-[660px]">
           <SectionHeading

@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 
 export default function Faq() {
   return (
-    <section id="faq" className="bg-soft py-[76px] md:py-[120px]">
+    <section id="faq" className="bg-soft">
       <Wrap narrow>
         <Reveal>
           <SectionHeading eyebrow="FAQ" title="자주 묻는 질문." />
