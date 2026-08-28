@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { whyYeongyangItems } from "@/data/whyYeongyang";
 import Wrap from "./Wrap";
 import SectionHeading from "./SectionHeading";
@@ -14,6 +15,21 @@ export default function WhyYeongyang() {
             title="왜, 영양고추인가."
             desc="영양군은 이런 이력을 가진 고추 산지로 알려져 있습니다. 갈골농원은 그 영양군 청기면에서 고추를 직접 재배·세척·건조합니다."
           />
+        </Reveal>
+      </Wrap>
+      <Wrap>
+        <Reveal className="relative mt-[26px] aspect-[16/9] overflow-hidden rounded-card md:mt-[34px] md:aspect-[21/9]">
+          <Image
+            src="/images/yeongyang-pride.webp"
+            alt="영양군 청기면의 '전국으뜸 英陽고추' 표지석"
+            fill
+            sizes="(min-width: 768px) 1080px, 100vw"
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,.02)_50%,rgba(0,0,0,.55)_100%)]" />
+          <p className="absolute right-4 bottom-3 left-4 text-[12.5px] font-semibold text-white/85 md:right-6 md:bottom-4 md:left-6">
+            영양군 청기면에 세워진 &quot;전국으뜸 英陽고추&quot; 표지석.
+          </p>
         </Reveal>
       </Wrap>
       <Wrap>

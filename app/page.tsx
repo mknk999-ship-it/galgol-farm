@@ -4,6 +4,7 @@ import WhyYeongyang from "@/components/WhyYeongyang";
 import Farmer from "@/components/Farmer";
 import Numbers from "@/components/Numbers";
 import About from "@/components/About";
+import Journey from "@/components/Journey";
 import Process from "@/components/Process";
 import Rules from "@/components/Rules";
 import Products from "@/components/Products";
@@ -23,6 +24,7 @@ export default function Home() {
       <Farmer />
       <Numbers />
       <About />
+      <Journey />
       <Process />
       <Rules />
       <Products />

@@ -29,7 +29,7 @@ export const products: Product[] = [
     meta: "국내산",
     desc: "세척 후 열풍건조한 통고추입니다.",
     price: null,
-    image: "/images/dried-pepper.webp",
+    image: "/images/dried-pepper-bowl.webp",
     available: true,
   },
   {
