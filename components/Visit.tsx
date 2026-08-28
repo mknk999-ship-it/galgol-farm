@@ -48,7 +48,7 @@ export default function Visit() {
             <div className="text-[16.5px] leading-[1.5] font-bold">
               {siteConfig.phone}
               <small className="mt-[6px] block text-sm font-normal text-sub">
-                주문·문의는 전화로 받고 있습니다
+                주문·문의는 전화 또는 문자로 받고 있습니다
               </small>
             </div>
             <div className="mt-4 flex gap-[10px]">

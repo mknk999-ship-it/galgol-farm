@@ -11,8 +11,14 @@ export default function WhyYeongyang() {
       <Wrap narrow>
         <Reveal>
           <SectionHeading
-            eyebrow="WHY 영양"
-            title="왜, 영양고추인가."
+            eyebrow="영양고추의 우수성"
+            title={
+              <>
+                전 세계인의 입맛을
+                <br />
+                사로잡은 명품 영양고추
+              </>
+            }
             desc="영양군은 이런 이력을 가진 고추 산지로 알려져 있습니다. 갈골농원은 그 영양군 청기면에서 고추를 직접 재배·세척·건조합니다."
           />
         </Reveal>
@@ -52,8 +58,7 @@ export default function WhyYeongyang() {
           ))}
         </Reveal>
         <p className="mt-[18px] text-[12.5px] leading-[1.6] text-faint md:mt-[22px] md:max-w-[660px]">
-          * 백화점 입점·해외 수출 사례는 영양군 고추 유통 전반의 사례이며,
-          갈골농원이 직접 납품·수출한 사례가 아닙니다.
+          * 백화점 입점·해외 수출 사례는 영양군 고추 유통 전반의 사례입니다.
         </p>
       </Wrap>
     </section>

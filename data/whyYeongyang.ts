@@ -12,7 +12,7 @@ export const whyYeongyangItems: WhyItem[] = [
   },
   {
     icon: "store",
-    title: "백화점 명품관 입점 사례",
+    title: "백화점 입점 상품",
     desc: "영양산 고추가 갤러리아·롯데·현대백화점 명품관에 입점한 사례가 있습니다.",
   },
   {
@@ -22,7 +22,7 @@ export const whyYeongyangItems: WhyItem[] = [
   },
   {
     icon: "map",
-    title: "대한민국 대표 고추 산지",
+    title: "대한민국 대표 산지",
     desc: "1955년 국내 최초 고추 주산단지로 조성된 이후 지금까지 이어지는 고추 산지입니다.",
   },
 ];
