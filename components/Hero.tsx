@@ -43,7 +43,7 @@ export default function Hero() {
             </Btn>
           </div>
           <p className="mt-4 text-[13.5px] text-white/72">
-            주문은 전화로 받고 있습니다 · 온라인 스토어 준비 중
+            주문은 전화 또는 문자로 받고 있습니다 · 온라인 스토어 준비 중
           </p>
         </div>
       </Wrap>

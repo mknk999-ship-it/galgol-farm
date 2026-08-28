@@ -13,7 +13,7 @@ export default function Products() {
           <SectionHeading
             eyebrow="PRODUCT"
             title="2026년 햇고추."
-            desc="주문은 전화로 받고 있습니다. 온라인 스토어는 준비 중입니다."
+            desc="주문은 전화 또는 문자로 받고 있습니다. 온라인 스토어는 준비 중입니다."
           />
         </Reveal>
 

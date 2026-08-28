@@ -7,7 +7,7 @@ const facts = [
   { k: "소재지", v: "경상북도 영양군 청기면" },
   { k: "취급 품목", v: "고추 · 고춧가루 · 사과" },
   { k: "건조 방식", v: "세척 후 열풍건조" },
-  { k: "주문", v: `전화 주문 ${siteConfig.phone}` },
+  { k: "주문", v: `전화·문자 주문 ${siteConfig.phone}` },
 ];
 
 export default function About() {
