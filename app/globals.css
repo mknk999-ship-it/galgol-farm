@@ -49,6 +49,7 @@
     font-size: 16.5px;
     line-height: 1.8;
     letter-spacing: -0.015em;
+    word-break: keep-all;
     -webkit-font-smoothing: antialiased;
     padding-bottom: 76px;
   }
