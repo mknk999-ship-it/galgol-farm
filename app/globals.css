@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #ffffff;
+  --soft: #f7f5f0;
+  --green: #2c4531;
+  --ivory: #f4f1e9;
+  --deep: #232320;
+  --ink: #1a1a18;
+  --sub: #6e6862;
+  --faint: #9a938b;
+  --red: #b7332b;
+  --red-deep: #8e241e;
+  --red-soft: rgba(183, 51, 43, 0.09);
+  --line: rgba(26, 26, 24, 0.09);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-soft: var(--soft);
+  --color-green: var(--green);
+  --color-ivory: var(--ivory);
+  --color-deep: var(--deep);
+  --color-ink: var(--ink);
+  --color-sub: var(--sub);
+  --color-faint: var(--faint);
+  --color-red: var(--red);
+  --color-red-deep: var(--red-deep);
+  --color-red-soft: var(--red-soft);
+  --color-line: var(--line);
+
+  --radius-card: 18px;
+  --radius-card-sm: 14px;
+  --radius-btn: 12px;
+
+  --font-sans:
+    "Pretendard Variable", Pretendard, -apple-system, "Apple SD Gothic Neo",
+    "Malgun Gothic", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 16.5px;
+    line-height: 1.8;
+    letter-spacing: -0.015em;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 76px;
+  }
+  @media (min-width: 768px) {
+    body {
+      font-size: 17px;
+      padding-bottom: 0;
+    }
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 800;
+    letter-spacing: -0.042em;
+    line-height: 1.32;
+  }
+  :focus-visible {
+    outline: 2px solid var(--red);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@utility tabular-num {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+@utility photo-pending {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #efeae1,
+    #efeae1 9px,
+    #e5dfd4 9px,
+    #e5dfd4 18px
+  );
+}
+
+@utility reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.65s ease,
+    transform 0.65s ease;
+}
+
+@utility reveal-in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
