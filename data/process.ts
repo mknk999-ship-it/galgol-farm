@@ -48,12 +48,14 @@ export const processSteps: ProcessStep[] = [
     no: "06",
     title: "포장",
     headline: "상하지 않게 담습니다.",
-    image: null,
+    image: "/images/packing.webp",
+    alt: "상자에 포장된 고춧가루",
   },
   {
     no: "07",
     title: "출고",
     headline: "산지에서 바로 보냅니다.",
-    image: null,
+    image: "/images/shipping.webp",
+    alt: "차량에 상자를 싣는 모습",
   },
 ];
