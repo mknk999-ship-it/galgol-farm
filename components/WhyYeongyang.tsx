@@ -42,8 +42,7 @@ export default function WhyYeongyang() {
           ))}
         </Reveal>
         <p className="mt-[18px] text-[12.5px] leading-[1.6] text-faint md:mt-[22px] md:max-w-[660px]">
-          * 백화점 입점·해외 수출 사례는 영양군 고추 유통 전반의 사례이며,
-          갈골농원이 직접 납품·수출한 사례가 아닙니다.
+          * 백화점 입점·해외 수출 사례는 영양군 고추 유통 전반의 사례입니다.
         </p>
       </Wrap>
     </section>
