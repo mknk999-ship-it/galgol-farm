@@ -24,15 +24,15 @@ export default function WhyYeongyang() {
         </Reveal>
       </Wrap>
       <Wrap>
-        <Reveal className="relative mt-[26px] aspect-[16/9] overflow-hidden rounded-card md:mt-[34px] md:aspect-[21/9]">
+        <Reveal className="relative mx-auto mt-[26px] aspect-[3/4] w-full max-w-[300px] overflow-hidden rounded-card md:mt-[34px] md:max-w-[360px]">
           <Image
             src="/images/yeongyang-pride.webp"
             alt="영양군 청기면의 '전국으뜸 英陽고추' 표지석"
             fill
-            sizes="(min-width: 768px) 1080px, 100vw"
+            sizes="(min-width: 768px) 360px, 300px"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,.02)_50%,rgba(0,0,0,.55)_100%)]" />
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,.02)_60%,rgba(0,0,0,.55)_100%)]" />
           <p className="absolute right-4 bottom-3 left-4 text-[12.5px] font-semibold text-white/85 md:right-6 md:bottom-4 md:left-6">
             영양군 청기면에 세워진 &quot;전국으뜸 英陽고추&quot; 표지석.
           </p>
