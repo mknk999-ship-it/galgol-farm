@@ -9,7 +9,7 @@ export default function Products() {
   return (
     <section id="products" className="bg-soft">
       <Wrap>
-        <Reveal className="md:max-w-[660px]">
+        <Reveal>
           <SectionHeading
             eyebrow="PRODUCT"
             title="2026년 햇고추."

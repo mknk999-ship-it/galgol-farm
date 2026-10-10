@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { siteConfig } from "@/data/site";
 import Wrap from "./Wrap";
 import Eyebrow from "./Eyebrow";
 import Btn from "./Btn";
@@ -42,9 +43,23 @@ export default function Hero() {
               갈골농원 이야기
             </Btn>
           </div>
-          <p className="mt-4 text-[13.5px] text-white/72">
-            주문은 전화 또는 문자로 받고 있습니다 · 온라인 스토어 준비 중
-          </p>
+
+          <a
+            href={siteConfig.phoneHref}
+            className="mt-7 flex max-w-[380px] items-center gap-[14px] rounded-card-sm bg-white/96 p-4 shadow-[0_14px_34px_-14px_rgba(0,0,0,.55)] backdrop-blur-sm"
+          >
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-red-soft text-[19px]">
+              ☎
+            </span>
+            <span>
+              <span className="block text-[14.5px] leading-[1.4] font-extrabold text-ink">
+                전화 또는 문자로 간편하게 주문
+              </span>
+              <span className="block text-[13px] leading-[1.4] text-sub">
+                {siteConfig.phone} · 온라인 스토어 준비 중
+              </span>
+            </span>
+          </a>
         </div>
       </Wrap>
     </div>

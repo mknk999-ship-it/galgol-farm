@@ -8,7 +8,7 @@ export default function Visit() {
   return (
     <section id="visit">
       <Wrap>
-        <Reveal className="md:max-w-[660px]">
+        <Reveal>
           <SectionHeading
             eyebrow="VISIT"
             title={

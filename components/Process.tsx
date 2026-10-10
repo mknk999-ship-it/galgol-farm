@@ -8,7 +8,7 @@ export default function Process() {
   return (
     <section id="process" className="bg-soft">
       <Wrap>
-        <Reveal className="md:max-w-[660px]">
+        <Reveal>
           <SectionHeading
             eyebrow="PROCESS"
             title={

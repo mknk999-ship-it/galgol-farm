@@ -14,7 +14,7 @@ export default function Numbers() {
   return (
     <section className="bg-green text-white">
       <Wrap>
-        <Reveal className="md:max-w-[660px]">
+        <Reveal>
           <SectionHeading
             light
             eyebrow="NUMBERS"

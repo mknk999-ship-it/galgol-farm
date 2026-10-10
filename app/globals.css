@@ -12,6 +12,7 @@
   --red: #b7332b;
   --red-deep: #8e241e;
   --red-soft: rgba(183, 51, 43, 0.09);
+  --green-soft: rgba(44, 69, 49, 0.08);
   --line: rgba(26, 26, 24, 0.09);
 }
 
@@ -27,11 +28,12 @@
   --color-red: var(--red);
   --color-red-deep: var(--red-deep);
   --color-red-soft: var(--red-soft);
+  --color-green-soft: var(--green-soft);
   --color-line: var(--line);
 
-  --radius-card: 18px;
-  --radius-card-sm: 14px;
-  --radius-btn: 12px;
+  --radius-card: 24px;
+  --radius-card-sm: 18px;
+  --radius-btn: 16px;
 
   --font-sans:
     "Pretendard Variable", Pretendard, -apple-system, "Apple SD Gothic Neo",

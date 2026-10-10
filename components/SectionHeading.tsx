@@ -5,7 +5,7 @@ export default function SectionHeading({
   title,
   desc,
   light = false,
-  center = false,
+  center = true,
   className = "",
 }: {
   eyebrow: string;
@@ -16,17 +16,25 @@ export default function SectionHeading({
   className?: string;
 }) {
   return (
-    <div className={`${center ? "text-center" : ""} ${className}`}>
+    <div
+      className={`${center ? "mx-auto max-w-[620px] text-center" : ""} ${className}`}
+    >
       <Eyebrow light={light} center={center}>
         {eyebrow}
       </Eyebrow>
       <h2
-        className={`text-[27px] md:text-[38px] mb-[18px] md:mb-[22px] ${light ? "text-white" : "text-ink"}`}
+        className={`mb-[16px] text-[28px] leading-[1.3] tracking-[-0.03em] md:mb-[20px] md:text-[42px] ${
+          light ? "text-white" : "text-ink"
+        }`}
       >
         {title}
       </h2>
       {desc && (
-        <p className={`text-base ${light ? "text-white/66" : "text-sub"}`}>
+        <p
+          className={`text-[15.5px] leading-[1.7] md:text-[17px] ${
+            light ? "text-white/66" : "text-sub"
+          }`}
+        >
           {desc}
         </p>
       )}

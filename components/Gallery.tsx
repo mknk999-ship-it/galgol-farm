@@ -25,7 +25,7 @@ export default function Gallery() {
   return (
     <section id="gallery" className="bg-soft">
       <Wrap>
-        <Reveal className="md:max-w-[660px]">
+        <Reveal>
           <SectionHeading eyebrow="농장" title="영양에서, 이렇게." />
         </Reveal>
         <Reveal className="mt-[30px] flex flex-col gap-[22px] md:grid md:grid-cols-3">

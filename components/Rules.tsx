@@ -7,7 +7,7 @@ export default function Rules() {
   return (
     <section id="rules">
       <Wrap>
-        <Reveal className="md:max-w-[660px]">
+        <Reveal>
           <SectionHeading eyebrow="원칙" title="이렇게 농사짓습니다." />
         </Reveal>
         <Reveal className="mt-[30px] border-t border-line md:grid md:grid-cols-2 md:gap-x-10 md:border-t-0">

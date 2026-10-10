@@ -16,7 +16,7 @@ export default function Btn({
   className?: string;
 }) {
   const variants: Record<Variant, string> = {
-    red: "bg-red text-white active:bg-red-deep",
+    red: "bg-red text-white shadow-[0_10px_24px_-8px_rgba(183,51,43,.5)] active:bg-red-deep",
     line: "border-[1.5px] border-line bg-white text-ink",
     ghost: "border-[1.5px] border-white/72 bg-transparent text-white",
   };

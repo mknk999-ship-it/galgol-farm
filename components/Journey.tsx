@@ -8,7 +8,7 @@ export default function Journey() {
   return (
     <section id="journey">
       <Wrap>
-        <Reveal className="md:max-w-[660px]">
+        <Reveal>
           <SectionHeading
             eyebrow="JOURNEY"
             title={
