@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import Products from "@/components/Products";
 import WhyYeongyang from "@/components/WhyYeongyang";
 import Farmer from "@/components/Farmer";
-import Numbers from "@/components/Numbers";
 import About from "@/components/About";
 import Journey from "@/components/Journey";
 import Process from "@/components/Process";
@@ -23,7 +22,6 @@ export default function Home() {
       <Products />
       <WhyYeongyang />
       <Farmer />
-      <Numbers />
       <About />
       <Journey />
       <Process />
